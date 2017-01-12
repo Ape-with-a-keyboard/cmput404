@@ -1,0 +1,21 @@
+##type "source venv/bin/activate" to activate virtual env
+
+
+1) https://github.com/Ape-with-a-keyboard
+2) 2.11.1
+3) 2.12.4
+4) 2.11.1, no because vitualenv is not activated.
+5) "302 Found", to get 200 status code use "curl -i 'http://www.google.ca/\?gfe_rd\=cr\&ei\=78x2WOzeKu7e-APN9YDgBg'" instead
+6) 15."302 Found" for curl -i and "200 OK" for curl -iL because it redirects automaticaly to .ca location
+   16."418 I'm a teapot" for curl -iL https://www.google.com/teapot
+   17."200"
+7) The Form Contents have changed to 
+"<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
+"
+It is useful to push input to server to test feeback.
+
+8) 
